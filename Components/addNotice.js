@@ -19,10 +19,10 @@ export default function addNotice(){
         }
     }
     useEffect(() => {
-    register('titulo',{required:true})
-    register('conteudo',{required:true})
-    register('referenciaId',{required:true})
-    register('referencia',{required:true})
+    register('titulo',{required:true,message:'Informe o titulo da noticia'})
+    register('conteudo',{required:true,message:'Informe o conteudo'})
+    register('referenciaId',{required:true,message:'Informe   referencia'})
+    register('referencia',{required:true,message:'Confirme a referencia'})
     }, [register])
    
   function goBack(){
