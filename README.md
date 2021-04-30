@@ -6,6 +6,8 @@
     O usuário Leitor pode excluir suas credenciais, editar elas e ler as noticias. O usuário Escritor excluir suas credenciais, editar elas e escrever as noticias.
     Cada processo de edição e exclusão, possui uma verificação, caso o conteudo exista ele prosseguirá, caso contrário será exibido um alert indicando que o conteudo não existe.
     O sistema utiliza tratamento de erros, com o try catch, para evitar eventuais mensagens de erro na tela.
+    Para validações, utiliza-se useForm, com o required para impedir o envio do formulário semp preenchimento.
+    
     
     IMPORTAÇÕES:
     Realizar as seguintes importações
