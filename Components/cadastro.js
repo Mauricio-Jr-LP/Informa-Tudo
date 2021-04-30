@@ -24,6 +24,7 @@ const Armazenar = async (chave1,valor1,chave2,valor2,chave3,valor3) =>{
           alert('Erro ao gravar dados,tente novamente!')
       }     
   }
+
   useEffect(() => {
         register('nameid',{required:true,message:'Informe usuário'})
         register('name',{required:true,message:'Informe o seu nome'})
