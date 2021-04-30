@@ -27,7 +27,7 @@ export default function Escritor({route}){
                 <Text style ={styles.button2}>REMOVER CREDENCIAL</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity  onPress ={() =>SendEdit()}>
+            <TouchableOpacity  onPress ={() =>SendNews()}>
                 <Text style ={styles.button2}>CRIAR NOVA NOTICIA</Text>
             </TouchableOpacity>
 
