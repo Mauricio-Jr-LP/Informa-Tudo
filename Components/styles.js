@@ -114,6 +114,24 @@ export default StyleSheet.create({
         color:'#fff',
         fontSize:20,
         textAlign:'center',
+    },
+   textNot:{
+        marginBottom:-5,
+        paddingTop:-10,
+        fontWeight:'700',
+        fontSize:20,
+        width:140, 
+        color:'#fff',
+        textAlign: 'center'
+    },
+    numberButton:{
+        marginBottom:20,
+        marginTop:-22,
+    marginLeft:180,
+        paddingTop:-10,
+        fontWeight:'700',
+        fontSize:20,
+        width:140, 
+        color:'#fff',
     }
-
 })
