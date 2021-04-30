@@ -1,5 +1,5 @@
 # Informa-Tudo
-#Antes, leia a descrição
+#Antes, leia a descrição, caso o vídeo saia sem som
 #Descrição do app:
     O aplicativo simula uma plataforma de Noticias, incluindo dois modos de login: Escritor, para jornalistas publicarem suas noticias e o modo Leitor, para usuários comuns que    desejam ler as noticias publicadas por estes. As noticias contam com: titulo, conteudo da noticia e a sua referência.
     O sistema permite que o usuário Leitor e Escritor, manipulem o valor de suas credenciais, para que isso seja necessário ele utilizará seu token de acesso.
