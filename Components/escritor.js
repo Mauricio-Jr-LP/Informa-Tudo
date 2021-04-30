@@ -12,9 +12,12 @@ export default function Escritor({route}){
     }
 
     function SendEdit(){
-        navigation.navigate('Adiciona')
+        navigation.navigate('EditeEscri')
     }
 
+    function SendNews(){
+       navigation.navigate('Adiciona)
+    }
     return(
         <View style ={styles.screen}>
             <Text style = {styles.text}>Bem vindo: {route.params?.emailus}</Text>
