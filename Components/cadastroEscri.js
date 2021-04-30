@@ -27,10 +27,10 @@ export default function adastroEscri(){
         }     
     }
 useEffect(() => {
-    register('nameid',{required:true})
-    register('name',{required:true})
-    register('pass',{required:true})
-    register('cpass',{required:true})
+    register('nameid',{required:true,message:'Informe usuário'})
+    register('name',{required:true,message:'Informe  seu nome'})
+    register('pass',{required:true,message:'Informe sua senha'})
+    register('cpass',{required:true,message:'Confirme sua senha'})
 
 }, [register])
 
