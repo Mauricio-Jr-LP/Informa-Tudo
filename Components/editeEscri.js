@@ -31,7 +31,7 @@ export default function EditeEscri(){
     }, [register])
 
     function goBack(){
-        navigation.navigate('Login')
+        navigation.navigate('LoginEscri')
       }
       const onEdite=(data) =>Edite(data.token,data.credencial)
     return(
