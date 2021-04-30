@@ -29,7 +29,7 @@ export default function deleteNotice(){
     const onRemove = (data)=> Delete(data.item)
     return(
         <View style = {style.screen}>
-            <Text style = {style.text}>Remoção de dados do usuário</Text>
+            <Text style = {style.text}>Remoção da noticia</Text>
             <Text style = {style.text}>Chaves: Titulo ou ID da referencia</Text>
                <TextInput style = {style.form} placeholder ={'Digite o a chave referente ao item que deseja remover'} onChangeText ={text => setValue('item',text)} />
                <TouchableOpacity   onPress = {handleSubmit(onRemove)}>
