@@ -25,12 +25,12 @@ const Armazenar = async (chave1,valor1,chave2,valor2,chave3,valor3) =>{
       }     
   }
   useEffect(() => {
-        register('nameid',{required:true})
-        register('name',{required:true})
-        register('email',{required:true})
-        register('confirmemail',{required:true})
-        register('pass',{required:true})
-        register('confirpass',{required:true})
+        register('nameid',{required:true,message:'Informe usuário'})
+        register('name',{required:true,message:'Informe o seu nome'})
+        register('email',{required:true,message:'Informe seu e-mail'})
+        register('confirmemail',{required:true,message:'Confirme seu e-mail'})
+        register('pass',{required:true,message:'Informe sua senha'})
+        register('confirpass',{required:true,message:'Confirme sua senha'})
   }, [register])
   
   function goBack(){
