@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-community/async-storage'
 import { Text, TextInput, TouchableOpacity, View} from 'react-native'
 import styles from './style'
 import { useState } from 'react'
-
+import {LikeOutlined} from '@ant-design/icons'
 export default function showNotice(){
     const {register,setValue,handleSubmit} = useForm()
     const [conteudo,setConteudo] = useState(null)
@@ -36,6 +36,11 @@ export default function showNotice(){
            <Text style = {styles.button}>BUSCAR</Text>
        </TouchableOpacity>
        <Text style = {styles.text}>{conteudo}</Text>
+        /* REGRA DE NEGOCIO( ÂNGELO MIGUEL) Comunicação Leitor e Noticia*/
+      <TouchableOpacity onPress={()=>setLike(like+1)}>
+          <LikeOutlined  style={{color:'#FFF',marginTop:40,paddingBottom:-90}}/>
+            <Text style ={styles.numberButton}>{like}</Text>
+          </TouchableOpacity>
 
      </View>
  )
